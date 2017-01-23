@@ -4,10 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 
-/**
- * Created by pedrodelmonte on 23/01/17.
- */
-
 public class MainActivity extends Activity {
 
     @Override
