@@ -29,7 +29,7 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
 
             Log.w(SecondActivity.TAG, "Return Info Button Clicked");
             Intent returnIntent = new Intent();
-            returnIntent.putExtra("my data", "Info returned here from Second Activity");
+            returnIntent.putExtra("my data", "Info returned Here from Second Activity");
             setResult(55, returnIntent);
             finish();
 
